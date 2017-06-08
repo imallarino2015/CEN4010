@@ -1,0 +1,2 @@
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\CEN4010.UWP.csproj;x86
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\CEN4010.csproj;neutral

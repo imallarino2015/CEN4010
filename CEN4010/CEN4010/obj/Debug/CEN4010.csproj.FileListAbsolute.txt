@@ -1,0 +1,15 @@
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\CEN4010.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\CEN4010.pdb
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Core.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Core.xml
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.csprojResolveAssemblyReference.cache
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.MainPage.xaml.g.cs
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.App.xaml.g.cs
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.dll
+C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\obj\Debug\CEN4010.pdb
