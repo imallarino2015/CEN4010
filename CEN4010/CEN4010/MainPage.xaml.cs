@@ -24,7 +24,7 @@ namespace CEN4010
         {
             InitializeComponent();
             tickEvent();
-            Device.StartTimer(TimeSpan.FromSeconds(15), tickEvent);
+            Device.StartTimer(TimeSpan.FromSeconds(1), tickEvent);
             Slider.ValueChanged += OnSliderValueChanged;
         }
     }

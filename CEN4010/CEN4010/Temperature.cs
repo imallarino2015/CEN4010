@@ -8,9 +8,9 @@ namespace CEN4010
 {
     public class Temperature
     {
-        public int getTemperature()
+        public double getTemperature()
         {
-            return (int)temperature;
+            return temperature;
         }
         public void changeTemperature(bool acOn)
         {

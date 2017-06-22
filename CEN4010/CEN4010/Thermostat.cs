@@ -8,7 +8,7 @@ namespace CEN4010
 {
     public class Thermostat
     {
-        public int getTemperature()
+        public double getTemperature()
         {
             if (temp.getTemperature() > setTemperature)
             {
@@ -19,7 +19,7 @@ namespace CEN4010
                 acOn = false;
             }
             temp.changeTemperature(acOn);
-            return temp.getTemperature();
+            return Math.Floor(temp.getTemperature());
         }
         public int changeSet(double set)
         {
