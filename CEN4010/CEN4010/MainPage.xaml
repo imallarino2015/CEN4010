@@ -3,10 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CEN4010"
              x:Class="CEN4010.MainPage">
-
-    <Label x:Name="Temp"
-           Text="Tempature Not Available" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Grid >
+        <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+        <Label 
+            Text="Current Temperature:"
+            Grid.Row="0"
+            Grid.Column="0"
+            VerticalOptions="EndAndExpand"
+            HorizontalOptions="Center"
+            />
+        <Label 
+            x:Name="Temp"
+            Text="Tempature Not Available" 
+            Grid.Row="1"
+            Grid.Column="0"
+            FontSize="Large"
+            HorizontalOptions="Center"
+            />
+        <Label 
+            Text="Set Temperature:"
+            Grid.Row="0"
+            Grid.Column="1"
+            HorizontalOptions="Center"
+            VerticalOptions="EndAndExpand"
+            />
+        <Label 
+            x:Name="setTemp"
+            Grid.Row="1"
+            Grid.Column="1"
+            FontSize="Large"
+            HorizontalOptions="Center"
+            />
+        <Slider 
+            x:Name="Slider" 
+            Value="70" 
+            Maximum="90" 
+            Minimum="60"
+            Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            />
+    </Grid>
 
 </ContentPage>

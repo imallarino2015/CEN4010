@@ -21,6 +21,15 @@ namespace CEN4010
             temp.changeTemperature(acOn);
             return temp.getTemperature();
         }
+        public int changeSet(double set)
+        {
+            setTemperature = (int)set;
+            return setTemperature;
+        }
+        public int getSet()
+        {
+            return setTemperature;
+        }
         private int setTemperature = 80;
         private bool acOn = false;
         private Temperature temp = new Temperature();

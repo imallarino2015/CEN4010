@@ -15,11 +15,17 @@ namespace CEN4010
             Temp.Text = system.getTemperature().ToString();
             return true;
         }
+
+        void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            setTemp.Text = system.changeSet(e.NewValue).ToString();
+        }
         public MainPage()
         {
             InitializeComponent();
             tickEvent();
             Device.StartTimer(TimeSpan.FromSeconds(15), tickEvent);
+            Slider.ValueChanged += OnSliderValueChanged;
         }
     }
 }
