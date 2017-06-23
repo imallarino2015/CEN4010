@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-22T19:00:34.431</Modified>
+      <Modified>2017-06-23T00:53:55.941</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\CEN4010.UWP.exe">
       <PackagePath>entrypoint\CEN4010.UWP.exe</PackagePath>
-      <Modified>2017-06-22T19:00:33.962</Modified>
+      <Modified>2017-06-23T00:53:55.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Cole\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -513,7 +513,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010\bin\Debug\CEN4010.dll">
       <PackagePath>CEN4010.dll</PackagePath>
-      <Modified>2017-06-22T19:00:30.300</Modified>
+      <Modified>2017-06-23T00:53:53.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -692,7 +692,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Cole FAU\Prin\Project\CEN4010\CEN4010\CEN4010.UWP\bin\x86\Debug\Core\CEN4010.UWP.exe">
       <PackagePath>CEN4010.UWP.exe</PackagePath>
-      <Modified>2017-06-22T19:00:34.421</Modified>
+      <Modified>2017-06-23T00:53:55.938</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

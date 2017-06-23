@@ -10,16 +10,24 @@ namespace CEN4010
     {
         public double getTemperature()
         {
-            if (temp.getTemperature() > setTemperature)
+            if (acOnUser)
             {
-                acOn = true;
+                if (temp.getTemperature() > setTemperature)
+                {
+                    acOn = true;
+                }
+                else
+                {
+                    acOn = false;
+                }
+                temp.changeTemperature(acOn);
+                return Math.Floor(temp.getTemperature());
             }
             else
             {
-                acOn = false;
+                temp.changeTemperature(false);
+                return Math.Floor(temp.getTemperature());
             }
-            temp.changeTemperature(acOn);
-            return Math.Floor(temp.getTemperature());
         }
         public int changeSet(double set)
         {
@@ -30,8 +38,16 @@ namespace CEN4010
         {
             return setTemperature;
         }
+
+        public bool toggleAC()
+        {
+            acOnUser = !acOnUser;
+            return acOnUser;
+        }
+
         private int setTemperature = 80;
         private bool acOn = false;
+        private bool acOnUser = false;
         private Temperature temp = new Temperature();
     }
 }

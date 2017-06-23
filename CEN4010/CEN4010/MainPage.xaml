@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CEN4010"
              x:Class="CEN4010.MainPage">
-    <Grid >
+    <Grid Padding="25">
         <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
@@ -17,6 +18,7 @@
             Text="Current Temperature:"
             Grid.Row="0"
             Grid.Column="0"
+            FontSize="Medium"
             VerticalOptions="EndAndExpand"
             HorizontalOptions="Center"
             />
@@ -25,13 +27,14 @@
             Text="Tempature Not Available" 
             Grid.Row="1"
             Grid.Column="0"
-            FontSize="Large"
+            FontSize="50"
             HorizontalOptions="Center"
             />
         <Label 
             Text="Set Temperature:"
             Grid.Row="0"
             Grid.Column="1"
+            FontSize="Medium"
             HorizontalOptions="Center"
             VerticalOptions="EndAndExpand"
             />
@@ -39,7 +42,7 @@
             x:Name="setTemp"
             Grid.Row="1"
             Grid.Column="1"
-            FontSize="Large"
+            FontSize="50"
             HorizontalOptions="Center"
             />
         <Slider 
@@ -47,7 +50,15 @@
             Value="70" 
             Maximum="90" 
             Minimum="60"
+            VerticalOptions="Start"
             Grid.Row="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            />
+        <Button
+            x:Name="activateAC"
+            Text="Turn AC On"
+            Grid.Row="3"
             Grid.Column="0"
             Grid.ColumnSpan="2"
             />
