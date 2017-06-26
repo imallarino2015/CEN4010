@@ -9,6 +9,7 @@ namespace CEN4010
 {
     public partial class MainPage : ContentPage
     {
+        Thermostat system = new Thermostat();
         public bool tickEvent()
         {
             Temp.Text = system.getTemperature().ToString();
